@@ -1,11 +1,14 @@
+package lesson2;
+
 public class HomeWork2 {
     public static void main(String[] args){
 //        summa(12, 10);
 //        positive(-5);
 //        negative(5);
-//        string("Привет", 5);
-        gradeYear(2022);
-
+//        string("??????", 5);
+        System.out.println(gradeYear(2022));
+        System.out.println(summa(12, 10));
+        System.out.println(negative(5));
     }
     private static boolean summa(int a, int b){
         if (((a + b) >= 10) && ((a + b) <= 20)) {
@@ -15,10 +18,10 @@ public class HomeWork2 {
     }
     private static void positive(int a){
         if (a >= 0) {
-            System.out.println("положительное число");
+            System.out.println("????????????? ?????");
         }
         else {
-            System.out.println("Отрицательное число");
+            System.out.println("????????????? ?????");
         }
     }
     private static boolean negative(int a){
